@@ -54,7 +54,7 @@ a:hover
 }
 .container_imagem{
     grid-column-start: 1;
-    grid-column-end: 1;    
+    grid-column-end: 2;    
     border: #E4B04C solid 2px;
     text-align: center;
     
@@ -80,6 +80,20 @@ a:hover
 /*Página portfolio/*/
 
 
+.card{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.img{
+    background-color: #A6A6A6;
+    text-align: center;
+}
+
+.infos:hover{
+    color: #FAE5D0;
+}
 
 
 
