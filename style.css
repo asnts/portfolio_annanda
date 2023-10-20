@@ -113,8 +113,20 @@ p {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 1216px) {
+    .card {
+        padding-top: 5px;
+    display: flex;
+    flex-flow: column;
+    }
 
-
+    .img{
+    background-color: white;
+    text-align: center;
+    box-shadow: 5px 5px gray;
+    }
+  
+}
 
 
 /*Página Contato/*/
