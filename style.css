@@ -130,3 +130,60 @@ p {
 
 
 /*Página Contato/*/
+
+.container_form{
+    align-items: flex-end;
+    margin: 5% 2%;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #A6A6A6;
+    width: 500px;
+    height: 500px;
+}
+
+input {
+    width: 250px;
+    margin: 5px 2%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+
+input:hover{
+    background-color:#FAE5D0;
+    border-color: #FAE5D0;
+    
+
+}
+
+.mensagem{
+    height: 100px;
+}
+
+button{
+    font-weight: bolder;           
+    background-color: #E4B04C; 
+    text-align: center;  
+    font-size: 18px;
+    border: none;
+    color: #0B0B0B; padding: 20px; 
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 10px;
+   
+
+
+}        
+button:hover{
+background-color:#FAE5D0;  
+cursor: pointer;  
+}
