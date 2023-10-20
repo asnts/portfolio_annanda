@@ -76,7 +76,10 @@ a:hover
 
 
 
-
+.container_sobre, 
+p {
+    font-size:large;
+}
 
 /*Página portfolio/*/
 
