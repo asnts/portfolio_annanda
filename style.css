@@ -142,6 +142,11 @@ p {
 }
 /*Página Contato/*/
 
+.container_conteudo{
+    text-align: center;
+}
+
+
 .container_form{ 
     display: flex;
     justify-content: center;
