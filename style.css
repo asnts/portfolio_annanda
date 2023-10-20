@@ -1,9 +1,11 @@
+/*/Conteudo em comum de todas as paginas /*/
+
 body{
     box-sizing: border-box;
     background-color: #FAE5D0;
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /*/background-color: #FAE5D0;/*/
+   
 
 }
 
@@ -38,7 +40,11 @@ a:hover
     color: #FAE5D0;
 }
 
-/*Página Sobre/*/
+/*/ Fim de conteúdo /*/
+
+/*/-------------------------------------------------------------------/*/ 
+
+/*Página Sobre e profisional /*/
 
 .container_menu{
     grid-column-start: 6;
@@ -80,6 +86,7 @@ a:hover
 p {
     font-size:large;
 }
+
 
 /*Página portfolio/*/
 
