@@ -58,6 +58,7 @@ a:hover
     display: grid;
     
     
+    
 }
 .container_imagem{
     grid-column-start: 1;
@@ -90,11 +91,16 @@ p {
 
 /*Página portfolio/*/
 
+.container_projetos{
+    height: 80vh;
+    
+}
 
 .card{
     display: flex;
     flex-flow: row;
     justify-content: space-around;
+    
 }
 
 .img{
@@ -128,14 +134,19 @@ p {
   
 }
 
-
+.rodape{
+    background-color:#E4B04C;
+    text-align: center;
+    align-items: center;
+    
+}
 /*Página Contato/*/
 
 .container_form{
     align-items: flex-end;
     margin: 5% 2%;
     font-size: 15px;
-    text-align: justify;
+    text-align: center;
 }
 
 .form{
